@@ -34,18 +34,18 @@ A structured learning tracker and reference repository for progressing from foun
 
 | Domain | Category | Topics | Tracker |
 |---|---|---:|---|
-| **01** | [Cloud Foundations & Resource Hierarchy](buckets/01-cloud-foundations/README.md) | 6 | [Open tracker](#01-cloud-foundations) |
-| **02** | [Identity, Access & Governance](buckets/02-identity-governance/README.md) | 6 | [Open tracker](#02-identity-governance) |
-| **03** | [Networking & Connectivity](buckets/03-networking/README.md) | 10 | [Open tracker](#03-networking) |
-| **04** | [Compute & Application Hosting](buckets/04-compute-app-hosting/README.md) | 6 | [Open tracker](#04-compute-app-hosting) |
-| **05** | [Containers & Kubernetes](buckets/05-containers-kubernetes/README.md) | 6 | [Open tracker](#05-containers-kubernetes) |
-| **06** | [Storage, Databases & Caching](buckets/06-storage-databases/README.md) | 9 | [Open tracker](#06-storage-databases) |
-| **07** | [Serverless, APIs & Integration](buckets/07-serverless-integration/README.md) | 8 | [Open tracker](#07-serverless-integration) |
-| **08** | [Data Engineering & Analytics](buckets/08-data-analytics/README.md) | 8 | [Open tracker](#08-data-analytics) |
-| **09** | [AI, ML & Generative AI](buckets/09-ai-ml-genai/README.md) | 8 | [Open tracker](#09-ai-ml-genai) |
-| **10** | [Security, Threat Detection & Compliance](buckets/10-security-compliance/README.md) | 8 | [Open tracker](#10-security-compliance) |
-| **11** | [DevOps, IaC & Operations](buckets/11-devops-iac-operations/README.md) | 9 | [Open tracker](#11-devops-iac-operations) |
-| **12** | [Resilience, Migration, Cost & Architecture Patterns](buckets/12-resilience-migration-cost/README.md) | 7 | [Open tracker](#12-resilience-migration-cost) |
+| **01** | [Cloud Foundations & Resource Hierarchy](buckets/01-cloud-foundations/README.md) | 6 | [Open tracker](buckets/01-cloud-foundations/README.md) |
+| **02** | [Identity, Access & Governance](buckets/02-identity-governance/README.md) | 6 | [Open tracker](buckets/02-identity-governance/README.md) |
+| **03** | [Networking & Connectivity](buckets/03-networking/README.md) | 10 | [Open tracker](buckets/03-networking/README.md) |
+| **04** | [Compute & Application Hosting](buckets/04-compute-app-hosting/README.md) | 6 | [Open tracker](buckets/04-compute-app-hosting/README.md) |
+| **05** | [Containers & Kubernetes](buckets/05-containers-kubernetes/README.md) | 6 | [Open tracker](buckets/05-containers-kubernetes/README.md) |
+| **06** | [Storage, Databases & Caching](buckets/06-storage-databases/README.md) | 9 | [Open tracker](buckets/06-storage-databases/README.md) |
+| **07** | [Serverless, APIs & Integration](buckets/07-serverless-integration/README.md) | 8 | [Open tracker](buckets/07-serverless-integration/README.md) |
+| **08** | [Data Engineering & Analytics](buckets/08-data-analytics/README.md) | 8 | [Open tracker](buckets/08-data-analytics/README.md) |
+| **09** | [AI, ML & Generative AI](buckets/09-ai-ml-genai/README.md) | 8 | [Open tracker](buckets/09-ai-ml-genai/README.md) |
+| **10** | [Security, Threat Detection & Compliance](buckets/10-security-compliance/README.md) | 8 | [Open tracker](buckets/10-security-compliance/README.md) |
+| **11** | [DevOps, IaC & Operations](buckets/11-devops-iac-operations/README.md) | 9 | [Open tracker](buckets/11-devops-iac-operations/README.md) |
+| **12** | [Resilience, Migration, Cost & Architecture Patterns](buckets/12-resilience-migration-cost/README.md) | 7 | [Open tracker](buckets/12-resilience-migration-cost/README.md) |
 
 ## Your GCP learning tracker
 
