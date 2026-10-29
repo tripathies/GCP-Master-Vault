@@ -1,24 +1,39 @@
 # AI, ML & Generative AI
 
-Learning category for GCP Master Vault.
+> Category learning tracker for GCP Master Vault. Service names and examples in this folder are GCP-specific.
 
-## Checklist
+## Category architecture
 
-- [ ] [Vertex AI](../../services/vertex-ai.md)
-- [ ] [Gemini on Vertex AI](../../services/gemini-on-vertex-ai.md)
-- [ ] [Vertex AI Model Garden](../../services/vertex-ai-model-garden.md)
-- [ ] [Vertex AI Search](../../services/vertex-ai-search.md)
-- [ ] [Document AI](../../services/document-ai.md)
-- [ ] [Cloud Vision API](../../services/cloud-vision-api.md)
-- [ ] [Speech-to-Text](../../services/speech-to-text.md)
-- [ ] [Text-to-Speech](../../services/text-to-speech.md)
+![AI, ML & Generative AI architecture](architecture.svg)
+
+- [Editable category diagram](architecture.drawio)
+- [Mermaid source](architecture.mmd)
+- [Full visual library](../../VISUAL-DIAGRAMS.md)
+- [Master architecture](../../GCP-ENTERPRISE-REFERENCE-ARCHITECTURE.md)
+
+## Component tracker
+
+| Topic guide | SVG diagram | Editable draw.io |
+|---|---|---|
+| [Vertex AI](../../services/vertex-ai.md) | [SVG](../../services/vertex-ai/architecture.svg) | [draw.io](../../services/vertex-ai/architecture.drawio) |
+| [Gemini on Vertex AI](../../services/gemini-on-vertex-ai.md) | [SVG](../../services/gemini-on-vertex-ai/architecture.svg) | [draw.io](../../services/gemini-on-vertex-ai/architecture.drawio) |
+| [Vertex AI Model Garden](../../services/vertex-ai-model-garden.md) | [SVG](../../services/vertex-ai-model-garden/architecture.svg) | [draw.io](../../services/vertex-ai-model-garden/architecture.drawio) |
+| [Vertex AI Search](../../services/vertex-ai-search.md) | [SVG](../../services/vertex-ai-search/architecture.svg) | [draw.io](../../services/vertex-ai-search/architecture.drawio) |
+| [Document AI](../../services/document-ai.md) | [SVG](../../services/document-ai/architecture.svg) | [draw.io](../../services/document-ai/architecture.drawio) |
+| [Cloud Vision API](../../services/cloud-vision-api.md) | [SVG](../../services/cloud-vision-api/architecture.svg) | [draw.io](../../services/cloud-vision-api/architecture.drawio) |
+| [Speech-to-Text](../../services/speech-to-text.md) | [SVG](../../services/speech-to-text/architecture.svg) | [draw.io](../../services/speech-to-text/architecture.drawio) |
+| [Text-to-Speech](../../services/text-to-speech.md) | [SVG](../../services/text-to-speech/architecture.svg) | [draw.io](../../services/text-to-speech/architecture.drawio) |
 
 ## Practice workflow
-1. Read the official documentation for the selected service.
-2. Identify its trust boundaries, network flows, dependencies, and operational owner.
-3. Complete a small sandbox lab with least privilege.
-4. Validate logs, metrics, failure behavior, cost and cleanup.
+1. Read the official documentation for each selected service.
+2. Map its account/project boundary, identity, network and data flows.
+3. Complete a sandbox lab and capture validation evidence.
+4. Test one denied-access or failure scenario.
+5. Record cost, teardown proof and design trade-offs.
 
-## References
+## Official references
 - [Google Cloud documentation](https://cloud.google.com/docs)
 - [Google Cloud Architecture Framework](https://cloud.google.com/architecture/framework)
+- [Google Cloud pricing](https://cloud.google.com/pricing)
+
+> Diagram files are conceptual learning resources, not production-certified designs. Validate current service capabilities, permissions, routing, quotas, regional availability and prices before deployment.
