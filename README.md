@@ -1,19 +1,6 @@
-# GCP Master Vault ☁️
-### Google Cloud Architecture • Services • Hands-on Labs • Enterprise Design
-
-A structured learning tracker and reference repository for progressing from foundational services to enterprise architecture. Work through the categories, read service pages, complete labs in a sandbox and capture your own validation evidence.
-
-> **Status:** Initial learning vault scaffold. Service guides and architecture diagrams are conceptual learning resources, not individually production-validated runbooks. Verify current product capabilities, IAM roles, quotas, regional availability, Terraform syntax and pricing against official Google Cloud docs before implementation.
-
-## Quick navigation
-- [Enterprise reference architecture](GCP-ENTERPRISE-REFERENCE-ARCHITECTURE.md)
-- [Architecture diagram (SVG)](architecture.svg) · [Editable draw.io](architecture.drawio) · [Architecture notes](ARCHITECTURE.md)
-- [Portfolio projects](PORTFOLIO-PROJECTS.md) · [Learning roadmap](LEARNING-ROADMAP.md) · [Cost and cleanup](COST-AND-CLEANUP.md)
-- [Official sources](SOURCES.md) · [Machine-readable catalog](catalog.json)
-
 # GCP Master Vault
 
-> **GCP Solution Architect learning portal** — track your learning, explore the enterprise reference design, and open focused guides for cloud-native topics.
+> **Google Cloud Solution Architect learning portal** — track your learning, explore the enterprise reference design, and open a focused guide for each Google Cloud topic.
 
 [![Learning tracker](https://img.shields.io/badge/Learning%20tracker-open%20checklist-4285F4?style=for-the-badge)](#your-gcp-learning-tracker)
 [![Reference architecture](https://img.shields.io/badge/Reference%20architecture-open%20design-107C10?style=for-the-badge)](GCP-ENTERPRISE-REFERENCE-ARCHITECTURE.md)
@@ -23,14 +10,18 @@ A structured learning tracker and reference repository for progressing from foun
 
 | <div align="center">📚 Learning tracker</div> | <div align="center">🏗️ End-to-end design</div> | <div align="center">🗺️ Diagram library</div> |
 |---|---|---|
-| Work through the catalogue by category. Each topic links to its guide. | Explore how governance, identity, networking, workloads, data, security and operations fit together. | Preview architecture diagrams and open editable draw.io sources. |
+| Work through the catalogue by category. Every topic name opens its guide. | Explore how organization, identity, networking, workloads, data, security and operations fit together. | Preview category diagrams and open editable draw.io sources. |
 | [**Track topics below ↓**](#your-gcp-learning-tracker) | [**Open reference design →**](GCP-ENTERPRISE-REFERENCE-ARCHITECTURE.md) | [**Open visual library →**](VISUAL-DIAGRAMS.md) |
 
 ![GCP Master Vault architecture overview](architecture.svg)
 
-## Catalogue overview
+## Your GCP learning tracker
 
-**Catalogue size:** 91 service/topic guides across 12 learning categories.
+Use the checkboxes as a visible checklist and open each topic by clicking its name. The checkboxes in GitHub Markdown do **not** provide synced personal progress tracking or calculate a live completion percentage.
+
+**Catalogue size:** 91 service/topic guides across 12 categories.
+
+### Browse categories
 
 | Domain | Category | Topics | Tracker |
 |---|---|---:|---|
@@ -47,9 +38,7 @@ A structured learning tracker and reference repository for progressing from foun
 | **11** | [DevOps, IaC & Operations](buckets/11-devops-iac-operations/README.md) | 9 | [Open tracker](buckets/11-devops-iac-operations/README.md) |
 | **12** | [Resilience, Migration, Cost & Architecture Patterns](buckets/12-resilience-migration-cost/README.md) | 7 | [Open tracker](buckets/12-resilience-migration-cost/README.md) |
 
-## Your GCP learning tracker
-
-**Suggested path:** Foundations → Identity → Networking → Compute → Storage/Data → Security → DevOps/Operations → Resilience and FinOps.
+### Component checklist
 
 <details>
 <summary><strong>01. Cloud Foundations & Resource Hierarchy</strong></summary>
