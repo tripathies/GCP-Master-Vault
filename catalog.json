@@ -1,0 +1,638 @@
+{
+  "name": "GCP Master Vault",
+  "provider": "Google Cloud",
+  "catalogueVersion": 1,
+  "categories": [
+    {
+      "id": "01",
+      "slug": "01-cloud-foundations",
+      "title": "Cloud Foundations & Resource Hierarchy",
+      "topics": [
+        {
+          "name": "Resource Manager",
+          "path": "services/resource-manager.md",
+          "diagram": "services/resource-manager/architecture.svg",
+          "drawio": "services/resource-manager/architecture.drawio"
+        },
+        {
+          "name": "Organizations and Folders",
+          "path": "services/organizations-and-folders.md",
+          "diagram": "services/organizations-and-folders/architecture.svg",
+          "drawio": "services/organizations-and-folders/architecture.drawio"
+        },
+        {
+          "name": "Projects",
+          "path": "services/projects.md",
+          "diagram": "services/projects/architecture.svg",
+          "drawio": "services/projects/architecture.drawio"
+        },
+        {
+          "name": "Cloud Billing",
+          "path": "services/cloud-billing.md",
+          "diagram": "services/cloud-billing/architecture.svg",
+          "drawio": "services/cloud-billing/architecture.drawio"
+        },
+        {
+          "name": "Quotas and Locations",
+          "path": "services/quotas-and-locations.md",
+          "diagram": "services/quotas-and-locations/architecture.svg",
+          "drawio": "services/quotas-and-locations/architecture.drawio"
+        },
+        {
+          "name": "Google Cloud Architecture Framework",
+          "path": "services/google-cloud-architecture-framework.md",
+          "diagram": "services/google-cloud-architecture-framework/architecture.svg",
+          "drawio": "services/google-cloud-architecture-framework/architecture.drawio"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "slug": "02-identity-governance",
+      "title": "Identity, Access & Governance",
+      "topics": [
+        {
+          "name": "Cloud IAM",
+          "path": "services/cloud-iam.md",
+          "diagram": "services/cloud-iam/architecture.svg",
+          "drawio": "services/cloud-iam/architecture.drawio"
+        },
+        {
+          "name": "Service Accounts",
+          "path": "services/service-accounts.md",
+          "diagram": "services/service-accounts/architecture.svg",
+          "drawio": "services/service-accounts/architecture.drawio"
+        },
+        {
+          "name": "Workload Identity Federation",
+          "path": "services/workload-identity-federation.md",
+          "diagram": "services/workload-identity-federation/architecture.svg",
+          "drawio": "services/workload-identity-federation/architecture.drawio"
+        },
+        {
+          "name": "IAM Conditions",
+          "path": "services/iam-conditions.md",
+          "diagram": "services/iam-conditions/architecture.svg",
+          "drawio": "services/iam-conditions/architecture.drawio"
+        },
+        {
+          "name": "Organization Policy Service",
+          "path": "services/organization-policy-service.md",
+          "diagram": "services/organization-policy-service/architecture.svg",
+          "drawio": "services/organization-policy-service/architecture.drawio"
+        },
+        {
+          "name": "Policy Analyzer",
+          "path": "services/policy-analyzer.md",
+          "diagram": "services/policy-analyzer/architecture.svg",
+          "drawio": "services/policy-analyzer/architecture.drawio"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "slug": "03-networking",
+      "title": "Networking & Connectivity",
+      "topics": [
+        {
+          "name": "VPC Networks",
+          "path": "services/vpc-networks.md",
+          "diagram": "services/vpc-networks/architecture.svg",
+          "drawio": "services/vpc-networks/architecture.drawio"
+        },
+        {
+          "name": "Subnets and Routes",
+          "path": "services/subnets-and-routes.md",
+          "diagram": "services/subnets-and-routes/architecture.svg",
+          "drawio": "services/subnets-and-routes/architecture.drawio"
+        },
+        {
+          "name": "Firewall Rules and Policies",
+          "path": "services/firewall-rules-and-policies.md",
+          "diagram": "services/firewall-rules-and-policies/architecture.svg",
+          "drawio": "services/firewall-rules-and-policies/architecture.drawio"
+        },
+        {
+          "name": "Cloud NAT",
+          "path": "services/cloud-nat.md",
+          "diagram": "services/cloud-nat/architecture.svg",
+          "drawio": "services/cloud-nat/architecture.drawio"
+        },
+        {
+          "name": "Private Google Access",
+          "path": "services/private-google-access.md",
+          "diagram": "services/private-google-access/architecture.svg",
+          "drawio": "services/private-google-access/architecture.drawio"
+        },
+        {
+          "name": "Private Service Connect",
+          "path": "services/private-service-connect.md",
+          "diagram": "services/private-service-connect/architecture.svg",
+          "drawio": "services/private-service-connect/architecture.drawio"
+        },
+        {
+          "name": "Cloud VPN",
+          "path": "services/cloud-vpn.md",
+          "diagram": "services/cloud-vpn/architecture.svg",
+          "drawio": "services/cloud-vpn/architecture.drawio"
+        },
+        {
+          "name": "Cloud Interconnect",
+          "path": "services/cloud-interconnect.md",
+          "diagram": "services/cloud-interconnect/architecture.svg",
+          "drawio": "services/cloud-interconnect/architecture.drawio"
+        },
+        {
+          "name": "Cloud DNS",
+          "path": "services/cloud-dns.md",
+          "diagram": "services/cloud-dns/architecture.svg",
+          "drawio": "services/cloud-dns/architecture.drawio"
+        },
+        {
+          "name": "Cloud Load Balancing",
+          "path": "services/cloud-load-balancing.md",
+          "diagram": "services/cloud-load-balancing/architecture.svg",
+          "drawio": "services/cloud-load-balancing/architecture.drawio"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "slug": "04-compute-app-hosting",
+      "title": "Compute & Application Hosting",
+      "topics": [
+        {
+          "name": "Compute Engine",
+          "path": "services/compute-engine.md",
+          "diagram": "services/compute-engine/architecture.svg",
+          "drawio": "services/compute-engine/architecture.drawio"
+        },
+        {
+          "name": "Managed Instance Groups",
+          "path": "services/managed-instance-groups.md",
+          "diagram": "services/managed-instance-groups/architecture.svg",
+          "drawio": "services/managed-instance-groups/architecture.drawio"
+        },
+        {
+          "name": "Cloud Run",
+          "path": "services/cloud-run.md",
+          "diagram": "services/cloud-run/architecture.svg",
+          "drawio": "services/cloud-run/architecture.drawio"
+        },
+        {
+          "name": "App Engine",
+          "path": "services/app-engine.md",
+          "diagram": "services/app-engine/architecture.svg",
+          "drawio": "services/app-engine/architecture.drawio"
+        },
+        {
+          "name": "Google Kubernetes Engine (GKE)",
+          "path": "services/gke.md",
+          "diagram": "services/gke/architecture.svg",
+          "drawio": "services/gke/architecture.drawio"
+        },
+        {
+          "name": "Batch",
+          "path": "services/batch.md",
+          "diagram": "services/batch/architecture.svg",
+          "drawio": "services/batch/architecture.drawio"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "slug": "05-containers-kubernetes",
+      "title": "Containers & Kubernetes",
+      "topics": [
+        {
+          "name": "GKE Standard",
+          "path": "services/gke-standard.md",
+          "diagram": "services/gke-standard/architecture.svg",
+          "drawio": "services/gke-standard/architecture.drawio"
+        },
+        {
+          "name": "GKE Autopilot",
+          "path": "services/gke-autopilot.md",
+          "diagram": "services/gke-autopilot/architecture.svg",
+          "drawio": "services/gke-autopilot/architecture.drawio"
+        },
+        {
+          "name": "Artifact Registry",
+          "path": "services/artifact-registry.md",
+          "diagram": "services/artifact-registry/architecture.svg",
+          "drawio": "services/artifact-registry/architecture.drawio"
+        },
+        {
+          "name": "GKE Workload Identity Federation",
+          "path": "services/gke-workload-identity-federation.md",
+          "diagram": "services/gke-workload-identity-federation/architecture.svg",
+          "drawio": "services/gke-workload-identity-federation/architecture.drawio"
+        },
+        {
+          "name": "GKE Autoscaling",
+          "path": "services/gke-autoscaling.md",
+          "diagram": "services/gke-autoscaling/architecture.svg",
+          "drawio": "services/gke-autoscaling/architecture.drawio"
+        },
+        {
+          "name": "Cloud Service Mesh",
+          "path": "services/cloud-service-mesh.md",
+          "diagram": "services/cloud-service-mesh/architecture.svg",
+          "drawio": "services/cloud-service-mesh/architecture.drawio"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "slug": "06-storage-databases",
+      "title": "Storage, Databases & Caching",
+      "topics": [
+        {
+          "name": "Cloud Storage",
+          "path": "services/cloud-storage.md",
+          "diagram": "services/cloud-storage/architecture.svg",
+          "drawio": "services/cloud-storage/architecture.drawio"
+        },
+        {
+          "name": "Persistent Disk",
+          "path": "services/persistent-disk.md",
+          "diagram": "services/persistent-disk/architecture.svg",
+          "drawio": "services/persistent-disk/architecture.drawio"
+        },
+        {
+          "name": "Filestore",
+          "path": "services/filestore.md",
+          "diagram": "services/filestore/architecture.svg",
+          "drawio": "services/filestore/architecture.drawio"
+        },
+        {
+          "name": "Cloud SQL",
+          "path": "services/cloud-sql.md",
+          "diagram": "services/cloud-sql/architecture.svg",
+          "drawio": "services/cloud-sql/architecture.drawio"
+        },
+        {
+          "name": "AlloyDB for PostgreSQL",
+          "path": "services/alloydb-for-postgresql.md",
+          "diagram": "services/alloydb-for-postgresql/architecture.svg",
+          "drawio": "services/alloydb-for-postgresql/architecture.drawio"
+        },
+        {
+          "name": "Cloud Spanner",
+          "path": "services/cloud-spanner.md",
+          "diagram": "services/cloud-spanner/architecture.svg",
+          "drawio": "services/cloud-spanner/architecture.drawio"
+        },
+        {
+          "name": "Firestore",
+          "path": "services/firestore.md",
+          "diagram": "services/firestore/architecture.svg",
+          "drawio": "services/firestore/architecture.drawio"
+        },
+        {
+          "name": "Bigtable",
+          "path": "services/bigtable.md",
+          "diagram": "services/bigtable/architecture.svg",
+          "drawio": "services/bigtable/architecture.drawio"
+        },
+        {
+          "name": "Memorystore",
+          "path": "services/memorystore.md",
+          "diagram": "services/memorystore/architecture.svg",
+          "drawio": "services/memorystore/architecture.drawio"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "slug": "07-serverless-integration",
+      "title": "Serverless, APIs & Integration",
+      "topics": [
+        {
+          "name": "Cloud Run functions",
+          "path": "services/cloud-run-functions.md",
+          "diagram": "services/cloud-run-functions/architecture.svg",
+          "drawio": "services/cloud-run-functions/architecture.drawio"
+        },
+        {
+          "name": "API Gateway",
+          "path": "services/api-gateway.md",
+          "diagram": "services/api-gateway/architecture.svg",
+          "drawio": "services/api-gateway/architecture.drawio"
+        },
+        {
+          "name": "Apigee",
+          "path": "services/apigee.md",
+          "diagram": "services/apigee/architecture.svg",
+          "drawio": "services/apigee/architecture.drawio"
+        },
+        {
+          "name": "Pub/Sub",
+          "path": "services/pub-sub.md",
+          "diagram": "services/pub-sub/architecture.svg",
+          "drawio": "services/pub-sub/architecture.drawio"
+        },
+        {
+          "name": "Eventarc",
+          "path": "services/eventarc.md",
+          "diagram": "services/eventarc/architecture.svg",
+          "drawio": "services/eventarc/architecture.drawio"
+        },
+        {
+          "name": "Workflows",
+          "path": "services/workflows.md",
+          "diagram": "services/workflows/architecture.svg",
+          "drawio": "services/workflows/architecture.drawio"
+        },
+        {
+          "name": "Cloud Tasks",
+          "path": "services/cloud-tasks.md",
+          "diagram": "services/cloud-tasks/architecture.svg",
+          "drawio": "services/cloud-tasks/architecture.drawio"
+        },
+        {
+          "name": "Application Integration",
+          "path": "services/application-integration.md",
+          "diagram": "services/application-integration/architecture.svg",
+          "drawio": "services/application-integration/architecture.drawio"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "slug": "08-data-analytics",
+      "title": "Data Engineering & Analytics",
+      "topics": [
+        {
+          "name": "BigQuery",
+          "path": "services/bigquery.md",
+          "diagram": "services/bigquery/architecture.svg",
+          "drawio": "services/bigquery/architecture.drawio"
+        },
+        {
+          "name": "Dataflow",
+          "path": "services/dataflow.md",
+          "diagram": "services/dataflow/architecture.svg",
+          "drawio": "services/dataflow/architecture.drawio"
+        },
+        {
+          "name": "Dataproc",
+          "path": "services/dataproc.md",
+          "diagram": "services/dataproc/architecture.svg",
+          "drawio": "services/dataproc/architecture.drawio"
+        },
+        {
+          "name": "Dataform",
+          "path": "services/dataform.md",
+          "diagram": "services/dataform/architecture.svg",
+          "drawio": "services/dataform/architecture.drawio"
+        },
+        {
+          "name": "Datastream",
+          "path": "services/datastream.md",
+          "diagram": "services/datastream/architecture.svg",
+          "drawio": "services/datastream/architecture.drawio"
+        },
+        {
+          "name": "BigLake",
+          "path": "services/biglake.md",
+          "diagram": "services/biglake/architecture.svg",
+          "drawio": "services/biglake/architecture.drawio"
+        },
+        {
+          "name": "Dataplex Universal Catalog",
+          "path": "services/dataplex-universal-catalog.md",
+          "diagram": "services/dataplex-universal-catalog/architecture.svg",
+          "drawio": "services/dataplex-universal-catalog/architecture.drawio"
+        },
+        {
+          "name": "Looker",
+          "path": "services/looker.md",
+          "diagram": "services/looker/architecture.svg",
+          "drawio": "services/looker/architecture.drawio"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "slug": "09-ai-ml-genai",
+      "title": "AI, ML & Generative AI",
+      "topics": [
+        {
+          "name": "Vertex AI",
+          "path": "services/vertex-ai.md",
+          "diagram": "services/vertex-ai/architecture.svg",
+          "drawio": "services/vertex-ai/architecture.drawio"
+        },
+        {
+          "name": "Gemini on Vertex AI",
+          "path": "services/gemini-on-vertex-ai.md",
+          "diagram": "services/gemini-on-vertex-ai/architecture.svg",
+          "drawio": "services/gemini-on-vertex-ai/architecture.drawio"
+        },
+        {
+          "name": "Vertex AI Model Garden",
+          "path": "services/vertex-ai-model-garden.md",
+          "diagram": "services/vertex-ai-model-garden/architecture.svg",
+          "drawio": "services/vertex-ai-model-garden/architecture.drawio"
+        },
+        {
+          "name": "Vertex AI Search",
+          "path": "services/vertex-ai-search.md",
+          "diagram": "services/vertex-ai-search/architecture.svg",
+          "drawio": "services/vertex-ai-search/architecture.drawio"
+        },
+        {
+          "name": "Document AI",
+          "path": "services/document-ai.md",
+          "diagram": "services/document-ai/architecture.svg",
+          "drawio": "services/document-ai/architecture.drawio"
+        },
+        {
+          "name": "Cloud Vision API",
+          "path": "services/cloud-vision-api.md",
+          "diagram": "services/cloud-vision-api/architecture.svg",
+          "drawio": "services/cloud-vision-api/architecture.drawio"
+        },
+        {
+          "name": "Speech-to-Text",
+          "path": "services/speech-to-text.md",
+          "diagram": "services/speech-to-text/architecture.svg",
+          "drawio": "services/speech-to-text/architecture.drawio"
+        },
+        {
+          "name": "Text-to-Speech",
+          "path": "services/text-to-speech.md",
+          "diagram": "services/text-to-speech/architecture.svg",
+          "drawio": "services/text-to-speech/architecture.drawio"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "slug": "10-security-compliance",
+      "title": "Security, Threat Detection & Compliance",
+      "topics": [
+        {
+          "name": "Cloud KMS",
+          "path": "services/cloud-kms.md",
+          "diagram": "services/cloud-kms/architecture.svg",
+          "drawio": "services/cloud-kms/architecture.drawio"
+        },
+        {
+          "name": "Secret Manager",
+          "path": "services/secret-manager.md",
+          "diagram": "services/secret-manager/architecture.svg",
+          "drawio": "services/secret-manager/architecture.drawio"
+        },
+        {
+          "name": "Cloud Armor",
+          "path": "services/cloud-armor.md",
+          "diagram": "services/cloud-armor/architecture.svg",
+          "drawio": "services/cloud-armor/architecture.drawio"
+        },
+        {
+          "name": "Security Command Center",
+          "path": "services/security-command-center.md",
+          "diagram": "services/security-command-center/architecture.svg",
+          "drawio": "services/security-command-center/architecture.drawio"
+        },
+        {
+          "name": "Cloud Audit Logs",
+          "path": "services/cloud-audit-logs.md",
+          "diagram": "services/cloud-audit-logs/architecture.svg",
+          "drawio": "services/cloud-audit-logs/architecture.drawio"
+        },
+        {
+          "name": "Cloud IDS",
+          "path": "services/cloud-ids.md",
+          "diagram": "services/cloud-ids/architecture.svg",
+          "drawio": "services/cloud-ids/architecture.drawio"
+        },
+        {
+          "name": "Sensitive Data Protection",
+          "path": "services/sensitive-data-protection.md",
+          "diagram": "services/sensitive-data-protection/architecture.svg",
+          "drawio": "services/sensitive-data-protection/architecture.drawio"
+        },
+        {
+          "name": "Certificate Authority Service",
+          "path": "services/certificate-authority-service.md",
+          "diagram": "services/certificate-authority-service/architecture.svg",
+          "drawio": "services/certificate-authority-service/architecture.drawio"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "slug": "11-devops-iac-operations",
+      "title": "DevOps, IaC & Operations",
+      "topics": [
+        {
+          "name": "Cloud Build",
+          "path": "services/cloud-build.md",
+          "diagram": "services/cloud-build/architecture.svg",
+          "drawio": "services/cloud-build/architecture.drawio"
+        },
+        {
+          "name": "Cloud Deploy",
+          "path": "services/cloud-deploy.md",
+          "diagram": "services/cloud-deploy/architecture.svg",
+          "drawio": "services/cloud-deploy/architecture.drawio"
+        },
+        {
+          "name": "Terraform on Google Cloud",
+          "path": "services/terraform-on-google-cloud.md",
+          "diagram": "services/terraform-on-google-cloud/architecture.svg",
+          "drawio": "services/terraform-on-google-cloud/architecture.drawio"
+        },
+        {
+          "name": "Infrastructure Manager",
+          "path": "services/infrastructure-manager.md",
+          "diagram": "services/infrastructure-manager/architecture.svg",
+          "drawio": "services/infrastructure-manager/architecture.drawio"
+        },
+        {
+          "name": "Config Controller",
+          "path": "services/config-controller.md",
+          "diagram": "services/config-controller/architecture.svg",
+          "drawio": "services/config-controller/architecture.drawio"
+        },
+        {
+          "name": "Cloud Scheduler",
+          "path": "services/cloud-scheduler.md",
+          "diagram": "services/cloud-scheduler/architecture.svg",
+          "drawio": "services/cloud-scheduler/architecture.drawio"
+        },
+        {
+          "name": "Cloud Monitoring",
+          "path": "services/cloud-monitoring.md",
+          "diagram": "services/cloud-monitoring/architecture.svg",
+          "drawio": "services/cloud-monitoring/architecture.drawio"
+        },
+        {
+          "name": "Cloud Logging",
+          "path": "services/cloud-logging.md",
+          "diagram": "services/cloud-logging/architecture.svg",
+          "drawio": "services/cloud-logging/architecture.drawio"
+        },
+        {
+          "name": "Cloud Trace and Profiler",
+          "path": "services/cloud-trace-and-profiler.md",
+          "diagram": "services/cloud-trace-and-profiler/architecture.svg",
+          "drawio": "services/cloud-trace-and-profiler/architecture.drawio"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "slug": "12-resilience-migration-cost",
+      "title": "Resilience, Migration, Cost & Architecture Patterns",
+      "topics": [
+        {
+          "name": "Backup and DR Service",
+          "path": "services/backup-and-dr-service.md",
+          "diagram": "services/backup-and-dr-service/architecture.svg",
+          "drawio": "services/backup-and-dr-service/architecture.drawio"
+        },
+        {
+          "name": "Migrate to Virtual Machines",
+          "path": "services/migrate-to-virtual-machines.md",
+          "diagram": "services/migrate-to-virtual-machines/architecture.svg",
+          "drawio": "services/migrate-to-virtual-machines/architecture.drawio"
+        },
+        {
+          "name": "Database Migration Service",
+          "path": "services/database-migration-service.md",
+          "diagram": "services/database-migration-service/architecture.svg",
+          "drawio": "services/database-migration-service/architecture.drawio"
+        },
+        {
+          "name": "Cloud Billing Budgets",
+          "path": "services/cloud-billing-budgets.md",
+          "diagram": "services/cloud-billing-budgets/architecture.svg",
+          "drawio": "services/cloud-billing-budgets/architecture.drawio"
+        },
+        {
+          "name": "Billing Export to BigQuery",
+          "path": "services/billing-export-to-bigquery.md",
+          "diagram": "services/billing-export-to-bigquery/architecture.svg",
+          "drawio": "services/billing-export-to-bigquery/architecture.drawio"
+        },
+        {
+          "name": "FinOps and Cost Optimization",
+          "path": "services/finops-and-cost-optimization.md",
+          "diagram": "services/finops-and-cost-optimization/architecture.svg",
+          "drawio": "services/finops-and-cost-optimization/architecture.drawio"
+        },
+        {
+          "name": "High Availability and Disaster Recovery Patterns",
+          "path": "services/high-availability-and-disaster-recovery-patterns.md",
+          "diagram": "services/high-availability-and-disaster-recovery-patterns/architecture.svg",
+          "drawio": "services/high-availability-and-disaster-recovery-patterns/architecture.drawio"
+        }
+      ]
+    }
+  ],
+  "notes": "Learning catalogue and conceptual diagrams. Validate current Google Cloud product behavior, IAM roles, Terraform syntax, region availability, quotas and pricing before production use."
+}
