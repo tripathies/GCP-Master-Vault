@@ -11,7 +11,43 @@ A structured learning tracker and reference repository for progressing from foun
 - [Portfolio projects](PORTFOLIO-PROJECTS.md) · [Learning roadmap](LEARNING-ROADMAP.md) · [Cost and cleanup](COST-AND-CLEANUP.md)
 - [Official sources](SOURCES.md) · [Machine-readable catalog](catalog.json)
 
-## Learning progress
+# GCP Master Vault
+
+> **GCP Solution Architect learning portal** — track your learning, explore the enterprise reference design, and open focused guides for cloud-native topics.
+
+[![Learning tracker](https://img.shields.io/badge/Learning%20tracker-open%20checklist-4285F4?style=for-the-badge)](#your-gcp-learning-tracker)
+[![Reference architecture](https://img.shields.io/badge/Reference%20architecture-open%20design-107C10?style=for-the-badge)](GCP-ENTERPRISE-REFERENCE-ARCHITECTURE.md)
+[![Visual library](https://img.shields.io/badge/Diagrams-SVG%20%7C%20draw.io-7F56D9?style=for-the-badge)](VISUAL-DIAGRAMS.md)
+
+## Start here
+
+| <div align="center">📚 Learning tracker</div> | <div align="center">🏗️ End-to-end design</div> | <div align="center">🗺️ Diagram library</div> |
+|---|---|---|
+| Work through the catalogue by category. Each topic links to its guide. | Explore how governance, identity, networking, workloads, data, security and operations fit together. | Preview architecture diagrams and open editable draw.io sources. |
+| [**Track topics below ↓**](#your-gcp-learning-tracker) | [**Open reference design →**](GCP-ENTERPRISE-REFERENCE-ARCHITECTURE.md) | [**Open visual library →**](VISUAL-DIAGRAMS.md) |
+
+![GCP Master Vault architecture overview](architecture.svg)
+
+## Catalogue overview
+
+**Catalogue size:** 91 service/topic guides across 12 learning categories.
+
+| Domain | Category | Topics | Tracker |
+|---|---|---:|---|
+| **01** | [Cloud Foundations & Resource Hierarchy](buckets/01-cloud-foundations/README.md) | 6 | [Open tracker](#01-cloud-foundations) |
+| **02** | [Identity, Access & Governance](buckets/02-identity-governance/README.md) | 6 | [Open tracker](#02-identity-governance) |
+| **03** | [Networking & Connectivity](buckets/03-networking/README.md) | 10 | [Open tracker](#03-networking) |
+| **04** | [Compute & Application Hosting](buckets/04-compute-app-hosting/README.md) | 6 | [Open tracker](#04-compute-app-hosting) |
+| **05** | [Containers & Kubernetes](buckets/05-containers-kubernetes/README.md) | 6 | [Open tracker](#05-containers-kubernetes) |
+| **06** | [Storage, Databases & Caching](buckets/06-storage-databases/README.md) | 9 | [Open tracker](#06-storage-databases) |
+| **07** | [Serverless, APIs & Integration](buckets/07-serverless-integration/README.md) | 8 | [Open tracker](#07-serverless-integration) |
+| **08** | [Data Engineering & Analytics](buckets/08-data-analytics/README.md) | 8 | [Open tracker](#08-data-analytics) |
+| **09** | [AI, ML & Generative AI](buckets/09-ai-ml-genai/README.md) | 8 | [Open tracker](#09-ai-ml-genai) |
+| **10** | [Security, Threat Detection & Compliance](buckets/10-security-compliance/README.md) | 8 | [Open tracker](#10-security-compliance) |
+| **11** | [DevOps, IaC & Operations](buckets/11-devops-iac-operations/README.md) | 9 | [Open tracker](#11-devops-iac-operations) |
+| **12** | [Resilience, Migration, Cost & Architecture Patterns](buckets/12-resilience-migration-cost/README.md) | 7 | [Open tracker](#12-resilience-migration-cost) |
+
+## Your GCP learning tracker
 
 **Suggested path:** Foundations → Identity → Networking → Compute → Storage/Data → Security → DevOps/Operations → Resilience and FinOps.
 
