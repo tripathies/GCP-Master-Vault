@@ -1,0 +1,7 @@
+flowchart TB
+ ORG["Google Cloud Organization / Folders / Projects"] --> SEC["Cloud IAM / Org Policy / Security Command Center / KMS"]
+ SEC --> NET["VPC / Cloud Router / Cloud NAT / VPN / Interconnect / PSC"]
+ NET --> APP["Cloud Load Balancing / Compute Engine / GKE / Cloud Run / Functions"]
+ APP --> DATA["Cloud Storage / Cloud SQL / Spanner / BigQuery / Pub/Sub"]
+ DATA --> OPS["Cloud Monitoring / Logging / Audit Logs / Billing Export"]
+ OPS --> IAC["Terraform / Infrastructure Manager / Cloud Build / Cloud Deploy"]

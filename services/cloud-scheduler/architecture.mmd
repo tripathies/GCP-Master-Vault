@@ -1,0 +1,8 @@
+flowchart TB
+ ROOT["Project / Cloud IAM / Service Identity"]
+ SVC["Cloud Scheduler"]
+ SEC["Security and Network<br/>Cloud IAM / VPC / KMS / PSC"]
+ OPS["Operations and Cost<br/>Cloud Monitoring / Logging / Billing"]
+ ROOT --> SVC
+ SVC --> SEC
+ SVC --> OPS
