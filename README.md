@@ -1,6 +1,6 @@
-# GCP Master Vault
+# Cloud Architecture Playbook
 
-> **Google Cloud Solution Architect learning portal** — track your learning, explore the enterprise reference design, and open a focused guide for each Google Cloud topic.
+> **Google Cloud Edition** — From Cloud Fundamentals to Enterprise-Grade Architecture. An open-source Solution Architect learning portal with service guides, reference architecture, diagrams and hands-on implementation projects.
 
 [![Learning tracker](https://img.shields.io/badge/Learning%20tracker-open%20checklist-4285F4?style=for-the-badge)](#your-gcp-learning-tracker)
 [![Reference architecture](https://img.shields.io/badge/Reference%20architecture-open%20design-107C10?style=for-the-badge)](GCP-ENTERPRISE-REFERENCE-ARCHITECTURE.md)
