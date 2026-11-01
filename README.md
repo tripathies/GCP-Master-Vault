@@ -8,6 +8,9 @@
 
 ## Start here
 
+![GCP Architecture Playbook — enterprise reference architecture](assets/gcp-architecture-playbook-cover.svg)
+
+
 | <div align="center">📚 Learning tracker</div> | <div align="center">🏗️ End-to-end design</div> | <div align="center">🗺️ Diagram library</div> |
 |---|---|---|
 | Work through the catalogue by category. Every topic name opens its guide. | Explore how organization, identity, networking, workloads, data, security and operations fit together. | Preview category diagrams and open editable draw.io sources. |
