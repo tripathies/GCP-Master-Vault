@@ -45,5 +45,6 @@ jobs:
             echo "PNG is already up to date."
           else
             git commit -m "Generate GCP cloud mind map PNG"
+            git pull --rebase origin main
             git push
           fi
