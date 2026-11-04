@@ -2,7 +2,7 @@
 
 > **Google Cloud Edition** — From Cloud Fundamentals to Enterprise-Grade Architecture. An open-source Solution Architect learning portal with service guides, reference architecture, diagrams and hands-on implementation projects.
 
-[![Learning tracker](https://img.shields.io/badge/Learning%20tracker-open%20checklist-4285F4?style=for-the-badge)](#your-gcp-learning-tracker)
+[![Interactive learning tracker](https://img.shields.io/badge/GCP%20learning-tracker-Launch%20interactive%20catalogue-4285F4?style=for-the-badge)](https://tripathies.github.io/GCP-Master-Vault/)
 [![Reference architecture](https://img.shields.io/badge/Reference%20architecture-open%20design-107C10?style=for-the-badge)](GCP-ENTERPRISE-REFERENCE-ARCHITECTURE.md)
 [![Visual library](https://img.shields.io/badge/Diagrams-SVG%20%7C%20draw.io-7F56D9?style=for-the-badge)](VISUAL-DIAGRAMS.md)
 
@@ -10,36 +10,54 @@
 
 ![GCP Architecture Playbook — enterprise reference architecture](assets/gcp-architecture-playbook-cover.svg)
 
+## GCP component catalogue mind map
 
-| <div align="center">📚 Learning tracker</div> | <div align="center">🏗️ End-to-end design</div> | <div align="center">🗺️ Diagram library</div> |
+The GCP Master Vault mind map organizes the full catalogue into **12 architecture domains and 91 learning topics**. The PNG is the quick visual overview; the SVG is scalable, and the diagrams.net file is editable.
+
+<p align="center">
+  <a href="assets/GCP-CLOUD-MINDMAP.png">
+    <img src="assets/GCP-CLOUD-MINDMAP.png" alt="Google Cloud mind map — 12 architecture domains and 91 learning topics" width="100%" />
+  </a>
+</p>
+
+- [Open the GCP mind map (PNG)](assets/GCP-CLOUD-MINDMAP.png)
+- [Open the scalable mind map (SVG)](assets/GCP-CLOUD-MINDMAP.svg)
+- [Edit the mind map in diagrams.net (draw.io)](GCP-CLOUD-MINDMAP.drawio)
+
+
+
+
+| <div align="center">📚 Integrated learning tracker</div> | <div align="center">🏗️ End-to-end design</div> | <div align="center">🗺️ Diagram library</div> |
 |---|---|---|
-| Work through the catalogue by category. Every topic name opens its guide. | Explore how organization, identity, networking, workloads, data, security and operations fit together. | Preview category diagrams and open editable draw.io sources. |
-| [**Track topics below ↓**](#your-gcp-learning-tracker) | [**Open reference design →**](GCP-ENTERPRISE-REFERENCE-ARCHITECTURE.md) | [**Open visual library →**](VISUAL-DIAGRAMS.md) |
+| Mark topics complete and follow progress across all 12 domains in one interactive page. | Explore how organization, identity, networking, workloads, data, security and operations fit together. | Explore the GCP mind map, category diagrams and editable draw.io sources. |
+| [**Open learning tracker →**](https://tripathies.github.io/GCP-Master-Vault/) | [**Open reference design →**](GCP-ENTERPRISE-REFERENCE-ARCHITECTURE.md) | [**Open visual library →**](VISUAL-DIAGRAMS.md) |
 
 ![GCP Master Vault architecture overview](architecture.svg)
 
 ## Your GCP learning tracker
 
-Use the checkboxes as a visible checklist and open each topic by clicking its name. The checkboxes in GitHub Markdown do **not** provide synced personal progress tracking or calculate a live completion percentage.
+Use the [interactive GCP learning catalogue](https://tripathies.github.io/GCP-Master-Vault/) to record topic completion and monitor the live overall progress bar and all 12 domain milestones. The progress board and the 91 topic checkboxes sit together on the same page; completing every topic in a domain marks that milestone complete.
 
-**Catalogue size:** 91 service/topic guides across 12 categories.
+[![OPEN INTERACTIVE GCP LEARNING CATALOGUE](https://img.shields.io/badge/OPEN%20INTERACTIVE%20GCP%20LEARNING%20CATALOGUE-View%20progress%20and%2091%20topics-4285F4?style=for-the-badge)](https://tripathies.github.io/GCP-Master-Vault/)
+
+**Catalogue size:** 91 service/topic guides across 12 categories. Progress is saved in the current browser; export a backup to transfer it to another device. The expandable checklists in this README remain a static reference and retain all topic guide links.
 
 ### Browse categories
 
 | Domain | Category | Topics | Tracker |
 |---|---|---:|---|
-| **01** | [Cloud Foundations & Resource Hierarchy](buckets/01-cloud-foundations/README.md) | 6 | [Open tracker](buckets/01-cloud-foundations/README.md) |
-| **02** | [Identity, Access & Governance](buckets/02-identity-governance/README.md) | 6 | [Open tracker](buckets/02-identity-governance/README.md) |
-| **03** | [Networking & Connectivity](buckets/03-networking/README.md) | 10 | [Open tracker](buckets/03-networking/README.md) |
-| **04** | [Compute & Application Hosting](buckets/04-compute-app-hosting/README.md) | 6 | [Open tracker](buckets/04-compute-app-hosting/README.md) |
-| **05** | [Containers & Kubernetes](buckets/05-containers-kubernetes/README.md) | 6 | [Open tracker](buckets/05-containers-kubernetes/README.md) |
-| **06** | [Storage, Databases & Caching](buckets/06-storage-databases/README.md) | 9 | [Open tracker](buckets/06-storage-databases/README.md) |
-| **07** | [Serverless, APIs & Integration](buckets/07-serverless-integration/README.md) | 8 | [Open tracker](buckets/07-serverless-integration/README.md) |
-| **08** | [Data Engineering & Analytics](buckets/08-data-analytics/README.md) | 8 | [Open tracker](buckets/08-data-analytics/README.md) |
-| **09** | [AI, ML & Generative AI](buckets/09-ai-ml-genai/README.md) | 8 | [Open tracker](buckets/09-ai-ml-genai/README.md) |
-| **10** | [Security, Threat Detection & Compliance](buckets/10-security-compliance/README.md) | 8 | [Open tracker](buckets/10-security-compliance/README.md) |
-| **11** | [DevOps, IaC & Operations](buckets/11-devops-iac-operations/README.md) | 9 | [Open tracker](buckets/11-devops-iac-operations/README.md) |
-| **12** | [Resilience, Migration, Cost & Architecture Patterns](buckets/12-resilience-migration-cost/README.md) | 7 | [Open tracker](buckets/12-resilience-migration-cost/README.md) |
+| **01** | [Cloud Foundations & Resource Hierarchy](buckets/01-cloud-foundations/README.md) | 6 | [Open milestone](https://tripathies.github.io/GCP-Master-Vault/#category-01) |
+| **02** | [Identity, Access & Governance](buckets/02-identity-governance/README.md) | 6 | [Open milestone](https://tripathies.github.io/GCP-Master-Vault/#category-02) |
+| **03** | [Networking & Connectivity](buckets/03-networking/README.md) | 10 | [Open milestone](https://tripathies.github.io/GCP-Master-Vault/#category-03) |
+| **04** | [Compute & Application Hosting](buckets/04-compute-app-hosting/README.md) | 6 | [Open milestone](https://tripathies.github.io/GCP-Master-Vault/#category-04) |
+| **05** | [Containers & Kubernetes](buckets/05-containers-kubernetes/README.md) | 6 | [Open milestone](https://tripathies.github.io/GCP-Master-Vault/#category-05) |
+| **06** | [Storage, Databases & Caching](buckets/06-storage-databases/README.md) | 9 | [Open milestone](https://tripathies.github.io/GCP-Master-Vault/#category-06) |
+| **07** | [Serverless, APIs & Integration](buckets/07-serverless-integration/README.md) | 8 | [Open milestone](https://tripathies.github.io/GCP-Master-Vault/#category-07) |
+| **08** | [Data Engineering & Analytics](buckets/08-data-analytics/README.md) | 8 | [Open milestone](https://tripathies.github.io/GCP-Master-Vault/#category-08) |
+| **09** | [AI, ML & Generative AI](buckets/09-ai-ml-genai/README.md) | 8 | [Open milestone](https://tripathies.github.io/GCP-Master-Vault/#category-09) |
+| **10** | [Security, Threat Detection & Compliance](buckets/10-security-compliance/README.md) | 8 | [Open milestone](https://tripathies.github.io/GCP-Master-Vault/#category-10) |
+| **11** | [DevOps, IaC & Operations](buckets/11-devops-iac-operations/README.md) | 9 | [Open milestone](https://tripathies.github.io/GCP-Master-Vault/#category-11) |
+| **12** | [Resilience, Migration, Cost & Architecture Patterns](buckets/12-resilience-migration-cost/README.md) | 7 | [Open milestone](https://tripathies.github.io/GCP-Master-Vault/#category-12) |
 
 ### Component checklist
 
