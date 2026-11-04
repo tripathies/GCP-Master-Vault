@@ -1,0 +1,49 @@
+name: Render GCP mind map PNG
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/GCP-CLOUD-MINDMAP.svg'
+      - 'scripts/render-gcp-mindmap.py'
+      - '.github/workflows/render-gcp-mindmap.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gcp-mindmap-render
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install SVG renderer
+        run: python -m pip install --disable-pip-version-check cairosvg
+      - name: Render and validate PNG
+        run: python scripts/render-gcp-mindmap.py
+      - name: Upload PNG artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gcp-cloud-mindmap-png
+          path: assets/GCP-CLOUD-MINDMAP.png
+          if-no-files-found: error
+      - name: Commit generated PNG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/GCP-CLOUD-MINDMAP.png
+          if git diff --cached --quiet; then
+            echo "PNG is already up to date."
+          else
+            git commit -m "Generate GCP cloud mind map PNG"
+            git push
+          fi
