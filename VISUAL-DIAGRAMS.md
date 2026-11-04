@@ -1,5 +1,9 @@
 # GCP Master Vault — Visual Architecture Library
 
+## Component catalogue mind map
+
+- [PNG overview](assets/GCP-CLOUD-MINDMAP.png) · [Scalable SVG](assets/GCP-CLOUD-MINDMAP.svg) · [Editable diagrams.net source](GCP-CLOUD-MINDMAP.drawio)
+
 Master architecture: [SVG](architecture.svg) · [Editable draw.io](architecture.drawio) · [Architecture notes](ARCHITECTURE.md) · [Mermaid source](architecture.mmd)
 
 ## 01. Cloud Foundations & Resource Hierarchy
