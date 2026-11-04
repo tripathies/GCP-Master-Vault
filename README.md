@@ -40,7 +40,7 @@ Use the [interactive GCP learning catalogue](https://tripathies.github.io/GCP-Ma
 
 [![OPEN INTERACTIVE GCP LEARNING CATALOGUE](https://img.shields.io/badge/OPEN%20INTERACTIVE%20GCP%20LEARNING%20CATALOGUE-View%20progress%20and%2091%20topics-4285F4?style=for-the-badge)](https://tripathies.github.io/GCP-Master-Vault/)
 
-**Catalogue size:** 91 service/topic guides across 12 categories. Progress is saved in the current browser; export a backup to transfer it to another device. The expandable checklists in this README remain a static reference and retain all topic guide links.
+**Catalogue size:** 91 service/topic guides across 12 categories. Progress is saved in the current browser; export a backup to transfer it to another device. On first deployment, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**; then rerun the Pages workflow. The expandable checklists in this README remain a static reference and retain all topic guide links.
 
 ### Browse categories
 
