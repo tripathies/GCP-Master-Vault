@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="2860" viewBox="0 0 3000 2860" role="img" aria-labelledby="title desc">
+<title id="title">GCP Cloud Mindmap — Google Cloud Master Vault — 12 architecture domains and 91 catalogue topics</title>
+<desc id="desc">A detailed Google Cloud architecture mind map in the AWS Master Vault visual style. Twelve named architecture domains connect to a central GCP Master Vault hub. Each domain contains its canonical learning topics.</desc>
+<defs>
+ <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f4f8fd"/></linearGradient>
+ <linearGradient id="navy" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#073b78"/><stop offset=".55" stop-color="#1459a8"/><stop offset="1" stop-color="#0b3973"/></linearGradient>
+ <linearGradient id="googleBlue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4285f4"/><stop offset="1" stop-color="#1765c1"/></linearGradient>
+ <linearGradient id="googleGold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbbc04"/><stop offset="1" stop-color="#f29900"/></linearGradient>
+ <filter id="shadow" x="-12%" y="-12%" width="124%" height="135%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#17334b" flood-opacity=".13"/></filter>
+ <style>
+ .title{font:800 68px 'Segoe UI',Arial,sans-serif;fill:#fff;letter-spacing:1.7px}
+ .subtitle{font:600 28px 'Segoe UI',Arial,sans-serif;fill:#d9eaff;letter-spacing:1.1px}
+ .meta{font:600 18px 'Segoe UI',Arial,sans-serif;fill:#dceaff;letter-spacing:.7px}
+ .category{font:700 23px 'Segoe UI',Arial,sans-serif;fill:#142b45}
+ .count{font:700 16px 'Segoe UI',Arial,sans-serif;fill:#1559a6;letter-spacing:.4px}
+ .chip{font:600 17px 'Segoe UI',Arial,sans-serif;fill:#25394c}
+ .hub{font:800 29px 'Segoe UI',Arial,sans-serif;fill:#172b45}
+ .hubsub{font:600 17px 'Segoe UI',Arial,sans-serif;fill:#617588}
+ .footerhead{font:800 23px 'Segoe UI',Arial,sans-serif;fill:#1559a6}
+ .footer{font:600 18px 'Segoe UI',Arial,sans-serif;fill:#354b5f}
+ </style>
+</defs>
+<rect width="3000" height="2860" fill="url(#paper)"/>
+<rect width="3000" height="215" fill="url(#navy)"/>
+<path d="M0 215 C360 180 560 240 860 215" fill="none" stroke="#4285f4" stroke-width="8"/>
+<path d="M0 228 C360 193 560 253 860 228" fill="none" stroke="#fbbc04" stroke-width="3" opacity=".95"/>
+<g transform="translate(75 45)">
+ <path d="M28 74c-20 0-34-14-34-32 0-16 12-29 28-31C30-10 52-4 60 12c20-1 34 12 34 31 0 18-14 31-33 31H28Z" fill="#fff" opacity=".12"/>
+ <path d="M20 62h47c14 0 23-9 23-21 0-11-8-19-20-20-4-16-19-24-34-18-9 3-15 10-17 20C7 24-1 32-1 43c0 11 9 19 21 19Z" fill="none" stroke="#34a853" stroke-width="9" stroke-linecap="round"/>
+ <path d="M-1 43c0-11 8-19 19-20" fill="none" stroke="#4285f4" stroke-width="9" stroke-linecap="round"/>
+ <path d="M18 23c2-10 10-18 21-20" fill="none" stroke="#ea4335" stroke-width="9" stroke-linecap="round"/>
+ <path d="M39 3c13-4 26 2 31 14" fill="none" stroke="#fbbc04" stroke-width="9" stroke-linecap="round"/>
+</g>
+<text x="190" y="76" font-family="Arial,sans-serif" font-size="30" font-weight="800" fill="#fff">Google Cloud</text>
+<text x="190" y="112" font-family="Arial,sans-serif" font-size="24" font-weight="650" fill="#dceaff">Platform Architecture</text>
+<text x="1500" y="86" text-anchor="middle" class="title">GCP CLOUD MINDMAP</text>
+<text x="1500" y="133" text-anchor="middle" class="subtitle">A PRACTICAL GUIDE TO GCP MASTER VAULT</text>
+<text x="1500" y="176" text-anchor="middle" class="meta">12 ARCHITECTURE DOMAINS • 91 LEARNING TOPICS • ONE CANONICAL HOME PER TOPIC</text>
+<rect x="2520" y="35" width="410" height="112" rx="28" fill="url(#googleBlue)" stroke="#a9d0ff" stroke-width="3" filter="url(#shadow)"/>
+<text x="2725" y="82" text-anchor="middle" font-family="Arial" font-size="30" font-weight="800" fill="#fff">91 CATALOGUE</text>
+<text x="2725" y="119" text-anchor="middle" font-family="Arial" font-size="30" font-weight="800" fill="#fff">ENTRIES</text>
+<path d="M0 218 H3000" stroke="#dce6ef" stroke-width="2"/>
+<circle cx="205" cy="1325" r="144" fill="#fff" stroke="#4285f4" stroke-width="8" filter="url(#shadow)"/>
+<circle cx="205" cy="1325" r="129" fill="none" stroke="#fbbc04" stroke-width="4"/>
+<g transform="translate(205 1275)">
+ <path d="M-53 22c-17 0-28-11-28-26 0-13 10-23 23-24 5-20 26-30 45-21 10 4 17 12 20 23 17-1 29 10 29 25 0 14-12 23-27 23h-62Z" fill="none" stroke="#34a853" stroke-width="12" stroke-linecap="round"/>
+ <path d="M-81-4c0-13 10-23 23-24" fill="none" stroke="#4285f4" stroke-width="12" stroke-linecap="round"/>
+ <path d="M-58-28c5-20 26-30 45-21" fill="none" stroke="#ea4335" stroke-width="12" stroke-linecap="round"/>
+ <path d="M-13-49c19 0 35 13 39 31" fill="none" stroke="#fbbc04" stroke-width="12" stroke-linecap="round"/>
+</g>
+<text x="205" y="1354" text-anchor="middle" font-family="Arial" font-size="58" font-weight="800" fill="#183652">GCP</text>
+<text x="205" y="1392" text-anchor="middle" class="hub">MASTER VAULT</text>
+<text x="205" y="1423" text-anchor="middle" class="hubsub">CLOUD ARCHITECTURE</text><path d="M350 1325 C420 1325 425 333 488 333" fill="none" stroke="#4285f4" stroke-width="3.3" opacity=".86"/><path d="M350 1325 C420 1325 425 312 488 312" fill="none" stroke="#4285F4" stroke-width="3.3" stroke-linecap="round" opacity=".86"/><circle cx="488" cy="312" r="7" fill="#4285F4" stroke="#fff" stroke-width="2"/>
+ <rect x="500" y="238" width="455" height="150" rx="18" fill="#fff" stroke="#4285F4" stroke-width="2.3" filter="url(#shadow)"/>
+ <rect x="514" y="252" width="105" height="105" rx="19" fill="#4285F4" fill-opacity=".09" stroke="#4285F4" stroke-width="1.6"/>
+ <g transform="translate(566 304)" fill="none" stroke="#4285F4" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-31 10h62a19 19 0 0 0 0-38 27 27 0 0 0-51-5 22 22 0 0 0-11 43Z"/></g>
+ <text x="637" y="290" class="category">Cloud Foundations &amp; Resource Hierarchy</text>
+ <rect x="637" y="316" width="175" height="34" rx="17" fill="#4285F4" fill-opacity=".12" stroke="#4285F4" stroke-opacity=".65"/>
+ <text x="724" y="339" text-anchor="middle" class="count">6 TOPICS</text>
+ <rect x="980" y="238" width="1940" height="150" rx="18" fill="#fff" stroke="#4285F4" stroke-width="2.1" filter="url(#shadow)"/><rect x="980" y="251" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="279.5" r="5.5" fill="#4285F4"/><text x="1178.4" y="287" text-anchor="middle" class="chip" font-size="17">Resource Manager</text><rect x="1369.8" y="251" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="279.5" r="5.5" fill="#4285F4"/><text x="1568.2" y="287" text-anchor="middle" class="chip" font-size="17">Organizations and Folders</text><rect x="1759.6" y="251" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="279.5" r="5.5" fill="#4285F4"/><text x="1958" y="287" text-anchor="middle" class="chip" font-size="17">Projects</text><rect x="2149.4" y="251" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2166.4" cy="279.5" r="5.5" fill="#4285F4"/><text x="2347.8" y="287" text-anchor="middle" class="chip" font-size="17">Cloud Billing</text><rect x="2539.2" y="251" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2556.2" cy="279.5" r="5.5" fill="#4285F4"/><text x="2737.6" y="287" text-anchor="middle" class="chip" font-size="17">Quotas and Locations</text><rect x="980" y="316" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="344.5" r="5.5" fill="#4285F4"/><text x="1178.4" y="340" text-anchor="middle" class="chip" font-size="15.5">Google Cloud Architecture</text><text x="1178.4" y="359" text-anchor="middle" class="chip" font-size="15.5">Framework</text><path d="M350 1325 C420 1325 425 502 488 502" fill="none" stroke="#EA4335" stroke-width="3.3" stroke-linecap="round" opacity=".86"/><circle cx="488" cy="502" r="7" fill="#EA4335" stroke="#fff" stroke-width="2"/>
+ <rect x="500" y="428" width="455" height="150" rx="18" fill="#fff" stroke="#EA4335" stroke-width="2.3" filter="url(#shadow)"/>
+ <rect x="514" y="442" width="105" height="105" rx="19" fill="#EA4335" fill-opacity=".09" stroke="#EA4335" stroke-width="1.6"/>
+ <g transform="translate(566 494)" fill="none" stroke="#EA4335" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="0" cy="-13" r="13"/><path d="M-27 27c2-17 13-26 27-26s25 9 27 26"/><path d="m18 3 11 5v12c0 9-6 15-11 18-6-3-11-9-11-18V8Z"/></g>
+ <text x="637" y="480" class="category">Identity, Access &amp; Governance</text>
+ <rect x="637" y="506" width="175" height="34" rx="17" fill="#EA4335" fill-opacity=".12" stroke="#EA4335" stroke-opacity=".65"/>
+ <text x="724" y="529" text-anchor="middle" class="count">6 TOPICS</text>
+ <rect x="980" y="428" width="1940" height="150" rx="18" fill="#fff" stroke="#EA4335" stroke-width="2.1" filter="url(#shadow)"/><rect x="980" y="441" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="469.5" r="5.5" fill="#EA4335"/><text x="1178.4" y="477" text-anchor="middle" class="chip" font-size="17">Cloud IAM</text><rect x="1369.8" y="441" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="469.5" r="5.5" fill="#EA4335"/><text x="1568.2" y="477" text-anchor="middle" class="chip" font-size="17">Service Accounts</text><rect x="1759.6" y="441" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="469.5" r="5.5" fill="#EA4335"/><text x="1958" y="465" text-anchor="middle" class="chip" font-size="15.5">Workload Identity</text><text x="1958" y="484" text-anchor="middle" class="chip" font-size="15.5">Federation</text><rect x="2149.4" y="441" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2166.4" cy="469.5" r="5.5" fill="#EA4335"/><text x="2347.8" y="477" text-anchor="middle" class="chip" font-size="17">IAM Conditions</text><rect x="2539.2" y="441" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2556.2" cy="469.5" r="5.5" fill="#EA4335"/><text x="2737.6" y="477" text-anchor="middle" class="chip" font-size="17">Organization Policy Service</text><rect x="980" y="506" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="534.5" r="5.5" fill="#EA4335"/><text x="1178.4" y="542" text-anchor="middle" class="chip" font-size="17">Policy Analyzer</text><path d="M350 1325 C420 1325 425 692 488 692" fill="none" stroke="#34A853" stroke-width="3.3" stroke-linecap="round" opacity=".86"/><circle cx="488" cy="692" r="7" fill="#34A853" stroke="#fff" stroke-width="2"/>
+ <rect x="500" y="618" width="455" height="150" rx="18" fill="#fff" stroke="#34A853" stroke-width="2.3" filter="url(#shadow)"/>
+ <rect x="514" y="632" width="105" height="105" rx="19" fill="#34A853" fill-opacity=".09" stroke="#34A853" stroke-width="1.6"/>
+ <g transform="translate(566 684)" fill="none" stroke="#34A853" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="-24" cy="-20" r="8"/><circle cx="24" cy="-20" r="8"/><circle cx="0" cy="24" r="8"/><path d="m-17-16 12 31m22-31L5 15M-16-20h32"/></g>
+ <text x="637" y="670" class="category">Networking &amp; Connectivity</text>
+ <rect x="637" y="696" width="175" height="34" rx="17" fill="#34A853" fill-opacity=".12" stroke="#34A853" stroke-opacity=".65"/>
+ <text x="724" y="719" text-anchor="middle" class="count">10 TOPICS</text>
+ <rect x="980" y="618" width="1940" height="150" rx="18" fill="#fff" stroke="#34A853" stroke-width="2.1" filter="url(#shadow)"/><rect x="980" y="631" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="659.5" r="5.5" fill="#34A853"/><text x="1178.4" y="667" text-anchor="middle" class="chip" font-size="17">VPC Networks</text><rect x="1369.8" y="631" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="659.5" r="5.5" fill="#34A853"/><text x="1568.2" y="667" text-anchor="middle" class="chip" font-size="17">Subnets and Routes</text><rect x="1759.6" y="631" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="659.5" r="5.5" fill="#34A853"/><text x="1958" y="667" text-anchor="middle" class="chip" font-size="17">Firewall Rules and Policies</text><rect x="2149.4" y="631" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2166.4" cy="659.5" r="5.5" fill="#34A853"/><text x="2347.8" y="667" text-anchor="middle" class="chip" font-size="17">Cloud NAT</text><rect x="2539.2" y="631" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2556.2" cy="659.5" r="5.5" fill="#34A853"/><text x="2737.6" y="667" text-anchor="middle" class="chip" font-size="17">Private Google Access</text><rect x="980" y="696" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="724.5" r="5.5" fill="#34A853"/><text x="1178.4" y="732" text-anchor="middle" class="chip" font-size="17">Private Service Connect</text><rect x="1369.8" y="696" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="724.5" r="5.5" fill="#34A853"/><text x="1568.2" y="732" text-anchor="middle" class="chip" font-size="17">Cloud VPN</text><rect x="1759.6" y="696" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="724.5" r="5.5" fill="#34A853"/><text x="1958" y="732" text-anchor="middle" class="chip" font-size="17">Cloud Interconnect</text><rect x="2149.4" y="696" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2166.4" cy="724.5" r="5.5" fill="#34A853"/><text x="2347.8" y="732" text-anchor="middle" class="chip" font-size="17">Cloud DNS</text><rect x="2539.2" y="696" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2556.2" cy="724.5" r="5.5" fill="#34A853"/><text x="2737.6" y="732" text-anchor="middle" class="chip" font-size="17">Cloud Load Balancing</text><path d="M350 1325 C420 1325 425 882 488 882" fill="none" stroke="#FBBC04" stroke-width="3.3" stroke-linecap="round" opacity=".86"/><circle cx="488" cy="882" r="7" fill="#FBBC04" stroke="#fff" stroke-width="2"/>
+ <rect x="500" y="808" width="455" height="150" rx="18" fill="#fff" stroke="#FBBC04" stroke-width="2.3" filter="url(#shadow)"/>
+ <rect x="514" y="822" width="105" height="105" rx="19" fill="#FBBC04" fill-opacity=".09" stroke="#FBBC04" stroke-width="1.6"/>
+ <g transform="translate(566 874)" fill="none" stroke="#FBBC04" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="0" cy="0" r="29"/><path d="M-29 0h58M0-29c-18 18-18 40 0 58M0-29c18 18 18 40 0 58M-23-17h46M-23 17h46"/></g>
+ <text x="637" y="860" class="category">Compute &amp; Application Hosting</text>
+ <rect x="637" y="886" width="175" height="34" rx="17" fill="#FBBC04" fill-opacity=".12" stroke="#FBBC04" stroke-opacity=".65"/>
+ <text x="724" y="909" text-anchor="middle" class="count">6 TOPICS</text>
+ <rect x="980" y="808" width="1940" height="150" rx="18" fill="#fff" stroke="#FBBC04" stroke-width="2.1" filter="url(#shadow)"/><rect x="980" y="821" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="849.5" r="5.5" fill="#FBBC04"/><text x="1178.4" y="857" text-anchor="middle" class="chip" font-size="17">Compute Engine</text><rect x="1369.8" y="821" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="849.5" r="5.5" fill="#FBBC04"/><text x="1568.2" y="857" text-anchor="middle" class="chip" font-size="17">Managed Instance Groups</text><rect x="1759.6" y="821" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="849.5" r="5.5" fill="#FBBC04"/><text x="1958" y="857" text-anchor="middle" class="chip" font-size="17">Cloud Run</text><rect x="2149.4" y="821" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2166.4" cy="849.5" r="5.5" fill="#FBBC04"/><text x="2347.8" y="857" text-anchor="middle" class="chip" font-size="17">App Engine</text><rect x="2539.2" y="821" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2556.2" cy="849.5" r="5.5" fill="#FBBC04"/><text x="2737.6" y="845" text-anchor="middle" class="chip" font-size="15.5">Google Kubernetes Engine</text><text x="2737.6" y="864" text-anchor="middle" class="chip" font-size="15.5">(GKE)</text><rect x="980" y="886" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="914.5" r="5.5" fill="#FBBC04"/><text x="1178.4" y="922" text-anchor="middle" class="chip" font-size="17">Batch</text><path d="M350 1325 C420 1325 425 1072 488 1072" fill="none" stroke="#4285F4" stroke-width="3.3" stroke-linecap="round" opacity=".86"/><circle cx="488" cy="1072" r="7" fill="#4285F4" stroke="#fff" stroke-width="2"/>
+ <rect x="500" y="998" width="455" height="150" rx="18" fill="#fff" stroke="#4285F4" stroke-width="2.3" filter="url(#shadow)"/>
+ <rect x="514" y="1012" width="105" height="105" rx="19" fill="#4285F4" fill-opacity=".09" stroke="#4285F4" stroke-width="1.6"/>
+ <g transform="translate(566 1064)" fill="none" stroke="#4285F4" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><rect x="-30" y="-23" width="60" height="42" rx="5"/><path d="M-14 30h28M0 19v11M-12-8l-8 8 8 8m24-16 8 8-8 8"/></g>
+ <text x="637" y="1050" class="category">Containers &amp; Kubernetes</text>
+ <rect x="637" y="1076" width="175" height="34" rx="17" fill="#4285F4" fill-opacity=".12" stroke="#4285F4" stroke-opacity=".65"/>
+ <text x="724" y="1099" text-anchor="middle" class="count">6 TOPICS</text>
+ <rect x="980" y="998" width="1940" height="150" rx="18" fill="#fff" stroke="#4285F4" stroke-width="2.1" filter="url(#shadow)"/><rect x="980" y="1011" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="1039.5" r="5.5" fill="#4285F4"/><text x="1178.4" y="1047" text-anchor="middle" class="chip" font-size="17">GKE Standard</text><rect x="1369.8" y="1011" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="1039.5" r="5.5" fill="#4285F4"/><text x="1568.2" y="1047" text-anchor="middle" class="chip" font-size="17">GKE Autopilot</text><rect x="1759.6" y="1011" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="1039.5" r="5.5" fill="#4285F4"/><text x="1958" y="1047" text-anchor="middle" class="chip" font-size="17">Artifact Registry</text><rect x="2149.4" y="1011" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2166.4" cy="1039.5" r="5.5" fill="#4285F4"/><text x="2347.8" y="1035" text-anchor="middle" class="chip" font-size="15.5">GKE Workload Identity</text><text x="2347.8" y="1054" text-anchor="middle" class="chip" font-size="15.5">Federation</text><rect x="2539.2" y="1011" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2556.2" cy="1039.5" r="5.5" fill="#4285F4"/><text x="2737.6" y="1047" text-anchor="middle" class="chip" font-size="17">GKE Autoscaling</text><rect x="980" y="1076" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="1104.5" r="5.5" fill="#4285F4"/><text x="1178.4" y="1112" text-anchor="middle" class="chip" font-size="17">Cloud Service Mesh</text><path d="M350 1325 C420 1325 425 1262 488 1262" fill="none" stroke="#A142F4" stroke-width="3.3" stroke-linecap="round" opacity=".86"/><circle cx="488" cy="1262" r="7" fill="#A142F4" stroke="#fff" stroke-width="2"/>
+ <rect x="500" y="1188" width="455" height="150" rx="18" fill="#fff" stroke="#A142F4" stroke-width="2.3" filter="url(#shadow)"/>
+ <rect x="514" y="1202" width="105" height="105" rx="19" fill="#A142F4" fill-opacity=".09" stroke="#A142F4" stroke-width="1.6"/>
+ <g transform="translate(566 1254)" fill="none" stroke="#A142F4" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="m0-32 28 16v32L0 32l-28-16v-32Z"/><path d="m-28-16 28 17 28-17M0 1v31"/></g>
+ <text x="637" y="1240" class="category">Storage, Databases &amp; Caching</text>
+ <rect x="637" y="1266" width="175" height="34" rx="17" fill="#A142F4" fill-opacity=".12" stroke="#A142F4" stroke-opacity=".65"/>
+ <text x="724" y="1289" text-anchor="middle" class="count">9 TOPICS</text>
+ <rect x="980" y="1188" width="1940" height="150" rx="18" fill="#fff" stroke="#A142F4" stroke-width="2.1" filter="url(#shadow)"/><rect x="980" y="1201" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="1229.5" r="5.5" fill="#A142F4"/><text x="1178.4" y="1237" text-anchor="middle" class="chip" font-size="17">Cloud Storage</text><rect x="1369.8" y="1201" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="1229.5" r="5.5" fill="#A142F4"/><text x="1568.2" y="1237" text-anchor="middle" class="chip" font-size="17">Persistent Disk</text><rect x="1759.6" y="1201" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="1229.5" r="5.5" fill="#A142F4"/><text x="1958" y="1237" text-anchor="middle" class="chip" font-size="17">Filestore</text><rect x="2149.4" y="1201" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2166.4" cy="1229.5" r="5.5" fill="#A142F4"/><text x="2347.8" y="1237" text-anchor="middle" class="chip" font-size="17">Cloud SQL</text><rect x="2539.2" y="1201" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2556.2" cy="1229.5" r="5.5" fill="#A142F4"/><text x="2737.6" y="1237" text-anchor="middle" class="chip" font-size="17">AlloyDB for PostgreSQL</text><rect x="980" y="1266" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="1294.5" r="5.5" fill="#A142F4"/><text x="1178.4" y="1302" text-anchor="middle" class="chip" font-size="17">Cloud Spanner</text><rect x="1369.8" y="1266" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="1294.5" r="5.5" fill="#A142F4"/><text x="1568.2" y="1302" text-anchor="middle" class="chip" font-size="17">Firestore</text><rect x="1759.6" y="1266" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="1294.5" r="5.5" fill="#A142F4"/><text x="1958" y="1302" text-anchor="middle" class="chip" font-size="17">Bigtable</text><rect x="2149.4" y="1266" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2166.4" cy="1294.5" r="5.5" fill="#A142F4"/><text x="2347.8" y="1302" text-anchor="middle" class="chip" font-size="17">Memorystore</text><path d="M350 1325 C420 1325 425 1452 488 1452" fill="none" stroke="#12A4A6" stroke-width="3.3" stroke-linecap="round" opacity=".86"/><circle cx="488" cy="1452" r="7" fill="#12A4A6" stroke="#fff" stroke-width="2"/>
+ <rect x="500" y="1378" width="455" height="150" rx="18" fill="#fff" stroke="#12A4A6" stroke-width="2.3" filter="url(#shadow)"/>
+ <rect x="514" y="1392" width="105" height="105" rx="19" fill="#12A4A6" fill-opacity=".09" stroke="#12A4A6" stroke-width="1.6"/>
+ <g transform="translate(566 1444)" fill="none" stroke="#12A4A6" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="0" cy="-20" rx="27" ry="10"/><path d="M-27-20v39c0 13 54 13 54 0v-39M-27 0c0 13 54 13 54 0"/></g>
+ <text x="637" y="1430" class="category">Serverless, APIs &amp; Integration</text>
+ <rect x="637" y="1456" width="175" height="34" rx="17" fill="#12A4A6" fill-opacity=".12" stroke="#12A4A6" stroke-opacity=".65"/>
+ <text x="724" y="1479" text-anchor="middle" class="count">8 TOPICS</text>
+ <rect x="980" y="1378" width="1940" height="150" rx="18" fill="#fff" stroke="#12A4A6" stroke-width="2.1" filter="url(#shadow)"/><rect x="980" y="1391" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="1419.5" r="5.5" fill="#12A4A6"/><text x="1178.4" y="1427" text-anchor="middle" class="chip" font-size="17">Cloud Run functions</text><rect x="1369.8" y="1391" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="1419.5" r="5.5" fill="#12A4A6"/><text x="1568.2" y="1427" text-anchor="middle" class="chip" font-size="17">API Gateway</text><rect x="1759.6" y="1391" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="1419.5" r="5.5" fill="#12A4A6"/><text x="1958" y="1427" text-anchor="middle" class="chip" font-size="17">Apigee</text><rect x="2149.4" y="1391" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2166.4" cy="1419.5" r="5.5" fill="#12A4A6"/><text x="2347.8" y="1427" text-anchor="middle" class="chip" font-size="17">Pub/Sub</text><rect x="2539.2" y="1391" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2556.2" cy="1419.5" r="5.5" fill="#12A4A6"/><text x="2737.6" y="1427" text-anchor="middle" class="chip" font-size="17">Eventarc</text><rect x="980" y="1456" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="1484.5" r="5.5" fill="#12A4A6"/><text x="1178.4" y="1492" text-anchor="middle" class="chip" font-size="17">Workflows</text><rect x="1369.8" y="1456" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="1484.5" r="5.5" fill="#12A4A6"/><text x="1568.2" y="1492" text-anchor="middle" class="chip" font-size="17">Cloud Tasks</text><rect x="1759.6" y="1456" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="1484.5" r="5.5" fill="#12A4A6"/><text x="1958" y="1492" text-anchor="middle" class="chip" font-size="17">Application Integration</text><path d="M350 1325 C420 1325 425 1642 488 1642" fill="none" stroke="#0F9D58" stroke-width="3.3" stroke-linecap="round" opacity=".86"/><circle cx="488" cy="1642" r="7" fill="#0F9D58" stroke="#fff" stroke-width="2"/>
+ <rect x="500" y="1568" width="455" height="150" rx="18" fill="#fff" stroke="#0F9D58" stroke-width="2.3" filter="url(#shadow)"/>
+ <rect x="514" y="1582" width="105" height="105" rx="19" fill="#0F9D58" fill-opacity=".09" stroke="#0F9D58" stroke-width="1.6"/>
+ <g transform="translate(566 1634)" fill="none" stroke="#0F9D58" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><rect x="-28" y="-25" width="20" height="20" rx="4"/><rect x="8" y="-25" width="20" height="20" rx="4"/><rect x="-10" y="10" width="20" height="20" rx="4"/><path d="M-18-5v8h36v-8M0 3v7"/></g>
+ <text x="637" y="1620" class="category">Data Engineering &amp; Analytics</text>
+ <rect x="637" y="1646" width="175" height="34" rx="17" fill="#0F9D58" fill-opacity=".12" stroke="#0F9D58" stroke-opacity=".65"/>
+ <text x="724" y="1669" text-anchor="middle" class="count">8 TOPICS</text>
+ <rect x="980" y="1568" width="1940" height="150" rx="18" fill="#fff" stroke="#0F9D58" stroke-width="2.1" filter="url(#shadow)"/><rect x="980" y="1581" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="1609.5" r="5.5" fill="#0F9D58"/><text x="1178.4" y="1617" text-anchor="middle" class="chip" font-size="17">BigQuery</text><rect x="1369.8" y="1581" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="1609.5" r="5.5" fill="#0F9D58"/><text x="1568.2" y="1617" text-anchor="middle" class="chip" font-size="17">Dataflow</text><rect x="1759.6" y="1581" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="1609.5" r="5.5" fill="#0F9D58"/><text x="1958" y="1617" text-anchor="middle" class="chip" font-size="17">Dataproc</text><rect x="2149.4" y="1581" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2166.4" cy="1609.5" r="5.5" fill="#0F9D58"/><text x="2347.8" y="1617" text-anchor="middle" class="chip" font-size="17">Dataform</text><rect x="2539.2" y="1581" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2556.2" cy="1609.5" r="5.5" fill="#0F9D58"/><text x="2737.6" y="1617" text-anchor="middle" class="chip" font-size="17">Datastream</text><rect x="980" y="1646" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="1674.5" r="5.5" fill="#0F9D58"/><text x="1178.4" y="1682" text-anchor="middle" class="chip" font-size="17">BigLake</text><rect x="1369.8" y="1646" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="1674.5" r="5.5" fill="#0F9D58"/><text x="1568.2" y="1682" text-anchor="middle" class="chip" font-size="17">Dataplex Universal Catalog</text><rect x="1759.6" y="1646" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="1674.5" r="5.5" fill="#0F9D58"/><text x="1958" y="1682" text-anchor="middle" class="chip" font-size="17">Looker</text><path d="M350 1325 C420 1325 425 1832 488 1832" fill="none" stroke="#8E44AD" stroke-width="3.3" stroke-linecap="round" opacity=".86"/><circle cx="488" cy="1832" r="7" fill="#8E44AD" stroke="#fff" stroke-width="2"/>
+ <rect x="500" y="1758" width="455" height="150" rx="18" fill="#fff" stroke="#8E44AD" stroke-width="2.3" filter="url(#shadow)"/>
+ <rect x="514" y="1772" width="105" height="105" rx="19" fill="#8E44AD" fill-opacity=".09" stroke="#8E44AD" stroke-width="1.6"/>
+ <g transform="translate(566 1824)" fill="none" stroke="#8E44AD" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M0-32 28-20v20c0 18-12 29-28 38C-16 29-28 18-28 0v-20Z"/><path d="m-12 0 8 8 17-19"/></g>
+ <text x="637" y="1810" class="category">AI, ML &amp; Generative AI</text>
+ <rect x="637" y="1836" width="175" height="34" rx="17" fill="#8E44AD" fill-opacity=".12" stroke="#8E44AD" stroke-opacity=".65"/>
+ <text x="724" y="1859" text-anchor="middle" class="count">8 TOPICS</text>
+ <rect x="980" y="1758" width="1940" height="150" rx="18" fill="#fff" stroke="#8E44AD" stroke-width="2.1" filter="url(#shadow)"/><rect x="980" y="1771" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="1799.5" r="5.5" fill="#8E44AD"/><text x="1178.4" y="1807" text-anchor="middle" class="chip" font-size="17">Vertex AI</text><rect x="1369.8" y="1771" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="1799.5" r="5.5" fill="#8E44AD"/><text x="1568.2" y="1807" text-anchor="middle" class="chip" font-size="17">Gemini on Vertex AI</text><rect x="1759.6" y="1771" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="1799.5" r="5.5" fill="#8E44AD"/><text x="1958" y="1807" text-anchor="middle" class="chip" font-size="17">Vertex AI Model Garden</text><rect x="2149.4" y="1771" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2166.4" cy="1799.5" r="5.5" fill="#8E44AD"/><text x="2347.8" y="1807" text-anchor="middle" class="chip" font-size="17">Vertex AI Search</text><rect x="2539.2" y="1771" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2556.2" cy="1799.5" r="5.5" fill="#8E44AD"/><text x="2737.6" y="1807" text-anchor="middle" class="chip" font-size="17">Document AI</text><rect x="980" y="1836" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="1864.5" r="5.5" fill="#8E44AD"/><text x="1178.4" y="1872" text-anchor="middle" class="chip" font-size="17">Cloud Vision API</text><rect x="1369.8" y="1836" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="1864.5" r="5.5" fill="#8E44AD"/><text x="1568.2" y="1872" text-anchor="middle" class="chip" font-size="17">Speech-to-Text</text><rect x="1759.6" y="1836" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="1864.5" r="5.5" fill="#8E44AD"/><text x="1958" y="1872" text-anchor="middle" class="chip" font-size="17">Text-to-Speech</text><path d="M350 1325 C420 1325 425 2022 488 2022" fill="none" stroke="#EA4335" stroke-width="3.3" stroke-linecap="round" opacity=".86"/><circle cx="488" cy="2022" r="7" fill="#EA4335" stroke="#fff" stroke-width="2"/>
+ <rect x="500" y="1948" width="455" height="150" rx="18" fill="#fff" stroke="#EA4335" stroke-width="2.3" filter="url(#shadow)"/>
+ <rect x="514" y="1962" width="105" height="105" rx="19" fill="#EA4335" fill-opacity=".09" stroke="#EA4335" stroke-width="1.6"/>
+ <g transform="translate(566 2014)" fill="none" stroke="#EA4335" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M0-32c-18 0-30 14-30 31 0 19 13 32 30 32S30 18 30-1C30-18 18-32 0-32Z"/><path d="M-17 5h34M-10-8h20M-12 18h24"/></g>
+ <text x="637" y="2000" class="category">Security, Threat Detection &amp; Compliance</text>
+ <rect x="637" y="2026" width="175" height="34" rx="17" fill="#EA4335" fill-opacity=".12" stroke="#EA4335" stroke-opacity=".65"/>
+ <text x="724" y="2049" text-anchor="middle" class="count">8 TOPICS</text>
+ <rect x="980" y="1948" width="1940" height="150" rx="18" fill="#fff" stroke="#EA4335" stroke-width="2.1" filter="url(#shadow)"/><rect x="980" y="1961" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="1989.5" r="5.5" fill="#EA4335"/><text x="1178.4" y="1997" text-anchor="middle" class="chip" font-size="17">Cloud KMS</text><rect x="1369.8" y="1961" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="1989.5" r="5.5" fill="#EA4335"/><text x="1568.2" y="1997" text-anchor="middle" class="chip" font-size="17">Secret Manager</text><rect x="1759.6" y="1961" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="1989.5" r="5.5" fill="#EA4335"/><text x="1958" y="1997" text-anchor="middle" class="chip" font-size="17">Cloud Armor</text><rect x="2149.4" y="1961" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2166.4" cy="1989.5" r="5.5" fill="#EA4335"/><text x="2347.8" y="1997" text-anchor="middle" class="chip" font-size="17">Security Command Center</text><rect x="2539.2" y="1961" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2556.2" cy="1989.5" r="5.5" fill="#EA4335"/><text x="2737.6" y="1997" text-anchor="middle" class="chip" font-size="17">Cloud Audit Logs</text><rect x="980" y="2026" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="2054.5" r="5.5" fill="#EA4335"/><text x="1178.4" y="2062" text-anchor="middle" class="chip" font-size="17">Cloud IDS</text><rect x="1369.8" y="2026" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="2054.5" r="5.5" fill="#EA4335"/><text x="1568.2" y="2062" text-anchor="middle" class="chip" font-size="17">Sensitive Data Protection</text><rect x="1759.6" y="2026" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="2054.5" r="5.5" fill="#EA4335"/><text x="1958" y="2050" text-anchor="middle" class="chip" font-size="15.5">Certificate Authority</text><text x="1958" y="2069" text-anchor="middle" class="chip" font-size="15.5">Service</text><path d="M350 1325 C420 1325 425 2212 488 2212" fill="none" stroke="#4285F4" stroke-width="3.3" stroke-linecap="round" opacity=".86"/><circle cx="488" cy="2212" r="7" fill="#4285F4" stroke="#fff" stroke-width="2"/>
+ <rect x="500" y="2138" width="455" height="150" rx="18" fill="#fff" stroke="#4285F4" stroke-width="2.3" filter="url(#shadow)"/>
+ <rect x="514" y="2152" width="105" height="105" rx="19" fill="#4285F4" fill-opacity=".09" stroke="#4285F4" stroke-width="1.6"/>
+ <g transform="translate(566 2204)" fill="none" stroke="#4285F4" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M0-32 8-22l14-3 4 14 10 8-7 13 1 14-15 3L0 36l-15-7-14-2 1-15-7-12 11-10 3-14 14 3Z"/><circle cx="0" cy="0" r="11"/></g>
+ <text x="637" y="2190" class="category">DevOps, IaC &amp; Operations</text>
+ <rect x="637" y="2216" width="175" height="34" rx="17" fill="#4285F4" fill-opacity=".12" stroke="#4285F4" stroke-opacity=".65"/>
+ <text x="724" y="2239" text-anchor="middle" class="count">9 TOPICS</text>
+ <rect x="980" y="2138" width="1940" height="150" rx="18" fill="#fff" stroke="#4285F4" stroke-width="2.1" filter="url(#shadow)"/><rect x="980" y="2151" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="2179.5" r="5.5" fill="#4285F4"/><text x="1178.4" y="2187" text-anchor="middle" class="chip" font-size="17">Cloud Build</text><rect x="1369.8" y="2151" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="2179.5" r="5.5" fill="#4285F4"/><text x="1568.2" y="2187" text-anchor="middle" class="chip" font-size="17">Cloud Deploy</text><rect x="1759.6" y="2151" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="2179.5" r="5.5" fill="#4285F4"/><text x="1958" y="2187" text-anchor="middle" class="chip" font-size="17">Terraform on Google Cloud</text><rect x="2149.4" y="2151" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2166.4" cy="2179.5" r="5.5" fill="#4285F4"/><text x="2347.8" y="2187" text-anchor="middle" class="chip" font-size="17">Infrastructure Manager</text><rect x="2539.2" y="2151" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2556.2" cy="2179.5" r="5.5" fill="#4285F4"/><text x="2737.6" y="2187" text-anchor="middle" class="chip" font-size="17">Config Controller</text><rect x="980" y="2216" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="2244.5" r="5.5" fill="#4285F4"/><text x="1178.4" y="2252" text-anchor="middle" class="chip" font-size="17">Cloud Scheduler</text><rect x="1369.8" y="2216" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="2244.5" r="5.5" fill="#4285F4"/><text x="1568.2" y="2252" text-anchor="middle" class="chip" font-size="17">Cloud Monitoring</text><rect x="1759.6" y="2216" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="2244.5" r="5.5" fill="#4285F4"/><text x="1958" y="2252" text-anchor="middle" class="chip" font-size="17">Cloud Logging</text><rect x="2149.4" y="2216" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2166.4" cy="2244.5" r="5.5" fill="#4285F4"/><text x="2347.8" y="2252" text-anchor="middle" class="chip" font-size="17">Cloud Trace and Profiler</text><path d="M350 1325 C420 1325 425 2402 488 2402" fill="none" stroke="#F29900" stroke-width="3.3" stroke-linecap="round" opacity=".86"/><circle cx="488" cy="2402" r="7" fill="#F29900" stroke="#fff" stroke-width="2"/>
+ <rect x="500" y="2328" width="455" height="150" rx="18" fill="#fff" stroke="#F29900" stroke-width="2.3" filter="url(#shadow)"/>
+ <rect x="514" y="2342" width="105" height="105" rx="19" fill="#F29900" fill-opacity=".09" stroke="#F29900" stroke-width="1.6"/>
+ <g transform="translate(566 2394)" fill="none" stroke="#F29900" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-28 0a28 28 0 0 1 48-20l8 8M28-12v-16M28-12H12M28 0a28 28 0 0 1-48 20l-8-8M-28 12v16m0-16h16"/></g>
+ <text x="637" y="2380" class="category">Resilience, Migration, Cost &amp; Architecture Patterns</text>
+ <rect x="637" y="2406" width="175" height="34" rx="17" fill="#F29900" fill-opacity=".12" stroke="#F29900" stroke-opacity=".65"/>
+ <text x="724" y="2429" text-anchor="middle" class="count">7 TOPICS</text>
+ <rect x="980" y="2328" width="1940" height="150" rx="18" fill="#fff" stroke="#F29900" stroke-width="2.1" filter="url(#shadow)"/><rect x="980" y="2341" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="2369.5" r="5.5" fill="#F29900"/><text x="1178.4" y="2377" text-anchor="middle" class="chip" font-size="17">Backup and DR Service</text><rect x="1369.8" y="2341" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="2369.5" r="5.5" fill="#F29900"/><text x="1568.2" y="2377" text-anchor="middle" class="chip" font-size="17">Migrate to Virtual Machines</text><rect x="1759.6" y="2341" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1776.6" cy="2369.5" r="5.5" fill="#F29900"/><text x="1958" y="2377" text-anchor="middle" class="chip" font-size="17">Database Migration Service</text><rect x="2149.4" y="2341" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2166.4" cy="2369.5" r="5.5" fill="#F29900"/><text x="2347.8" y="2377" text-anchor="middle" class="chip" font-size="17">Cloud Billing Budgets</text><rect x="2539.2" y="2341" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="2556.2" cy="2369.5" r="5.5" fill="#F29900"/><text x="2737.6" y="2377" text-anchor="middle" class="chip" font-size="17">Billing Export to BigQuery</text><rect x="980" y="2406" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="997" cy="2434.5" r="5.5" fill="#F29900"/><text x="1178.4" y="2430" text-anchor="middle" class="chip" font-size="15.5">FinOps and Cost</text><text x="1178.4" y="2449" text-anchor="middle" class="chip" font-size="15.5">Optimization</text><rect x="1369.8" y="2406" width="380.8" height="57" rx="10" fill="#fbfdff" stroke="#d6e1ea" stroke-width="1.2"/>
+  <circle cx="1386.8" cy="2434.5" r="5.5" fill="#F29900"/><text x="1568.2" y="2430" text-anchor="middle" class="chip" font-size="15.5">High Availability and</text><text x="1568.2" y="2449" text-anchor="middle" class="chip" font-size="15.5">Disaster Recovery</text><rect x="60" y="2588" width="2880" height="112" rx="28" fill="#fff" stroke="#4285f4" stroke-width="2.4" filter="url(#shadow)"/>
+<rect x="82" y="2607" width="300" height="72" rx="36" fill="url(#googleBlue)"/>
+<text x="232" y="2654" text-anchor="middle" font-family="Segoe UI,Arial" font-size="26" font-weight="800" fill="#fff">WHAT YOU’LL GAIN</text>
+<path d="M405 2605 V2683 M940 2605 V2683 M1450 2605 V2683 M1960 2605 V2683 M2440 2605 V2683" stroke="#e2eaf2" stroke-width="2"/>
+<text x="670" y="2646" text-anchor="middle" class="footer">Complete GCP Service Catalogue</text>
+<text x="1195" y="2646" text-anchor="middle" class="footer">Real-World Architecture Patterns</text>
+<text x="1705" y="2646" text-anchor="middle" class="footer">Security &amp; Governance</text>
+<text x="2200" y="2646" text-anchor="middle" class="footer">DevOps, Migration &amp; Resilience</text>
+<text x="1500" y="2752" text-anchor="middle" class="hubsub">Google Cloud architecture services • 12 domains • 91 topics • Created by Rahul Tripathi</text>
+</svg>
