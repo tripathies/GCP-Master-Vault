@@ -12,16 +12,16 @@
 
 ## GCP component catalogue mind map
 
-The GCP Master Vault mind map organizes the full catalogue into **12 architecture domains and 91 learning topics**. The PNG is the quick visual overview; the SVG is scalable, and the diagrams.net file is editable.
+The GCP Master Vault mind map follows the same visual structure as the AWS Master Vault: a central cloud hub, named architecture-domain panels, connected topic tiles, and a consistent reference footer. It covers **12 architecture domains and 91 learning topics**.
 
 <p align="center">
-  <a href="assets/GCP-CLOUD-MINDMAP.png">
-    <img src="assets/GCP-CLOUD-MINDMAP.png" alt="Google Cloud mind map — 12 architecture domains and 91 learning topics" width="100%" />
+  <a href="GCP-COMPONENT-MINDMAP.svg">
+    <img src="assets/GCP-CLOUD-MINDMAP.png" alt="GCP component mind map — 12 architecture domains and 91 learning topics" width="100%" />
   </a>
 </p>
 
 - [Open the GCP mind map (PNG)](assets/GCP-CLOUD-MINDMAP.png)
-- [Open the scalable mind map (SVG)](assets/GCP-CLOUD-MINDMAP.svg)
+- [Open the GCP component mind map (SVG)](GCP-COMPONENT-MINDMAP.svg)
 - [Edit the mind map in diagrams.net (draw.io)](GCP-CLOUD-MINDMAP.drawio)
 
 
